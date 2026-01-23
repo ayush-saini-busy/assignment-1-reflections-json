@@ -1,0 +1,14 @@
+Q. What is marshalling and Unmarshalling
+
+Marshalling is the process of converting complex data structures or objects in Go into a serialised format 
+like JSON or XML suitable for transmission or storage.
+
+Unmarshalling is the reverse procedure of converting serialised objects like JSON or XML files 
+to usable objects
+
+What is interface {} :used for handling values of unknown types
+
+difference between type assertions and reflections 
+
+
+reflect.ValueOf : used to obatin the run-time representation of the variable's value as a reflect.value
