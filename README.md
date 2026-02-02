@@ -12,6 +12,7 @@ The core idea behind solving this problem is to recursively identify the kind of
 Since JSON unmarshalling in Go results in values of type interface{}, we must first determine the actual underlying type before processing.
 
 ## Solution
+```
 *** Inspecting the JSON ***
 Map detected
 Key (string): age_in_years
@@ -63,3 +64,4 @@ Key (string): revenue
 Type: string | Value: 19.8 million$
 Key (string): no_of_employee
 Type: float64 | Value: 630
+```
